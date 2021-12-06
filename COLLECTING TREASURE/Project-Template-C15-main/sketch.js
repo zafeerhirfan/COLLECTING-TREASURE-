@@ -70,7 +70,7 @@ function draw() {
     }else if(jewelryG.isTouching(boy)) {
       jewelryG.destroyEach();
 
-       treasureCollection=+ 150;
+       treasureCollection= treasureCollection + 150;
       
       
     }else{
